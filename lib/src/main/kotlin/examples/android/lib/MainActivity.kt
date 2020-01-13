@@ -16,7 +16,7 @@ class MainActivity : Activity() {
     }.also { it.addView(Button(this).apply { text = "Foo!" }) }
     setContentView(parent, LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT))
     AlertDialog.Builder(this)
-        .setTitle(getResources().getString(R.string.header))
+        .setTitle(getResources().getString(R.string.demo_header))
         .setMessage("Blah blah blah?")
         .show()
   }
